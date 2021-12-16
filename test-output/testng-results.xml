@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42538" started-at="2021-12-16T00:53:38Z" finished-at="2021-12-16T00:54:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42538" started-at="2021-12-16T00:53:38Z" finished-at="2021-12-16T00:54:20Z">
+      <class name="pom_testcases.TC001_IRCTCRegistration">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:pom_testcases.TC001_IRCTCRegistration@1f792cf]" name="beforeSuite" is-config="true" duration-ms="198" started-at="2021-12-15T19:53:38Z" finished-at="2021-12-15T19:53:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pom_testcases.TC001_IRCTCRegistration@1f792cf]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-12-15T19:53:38Z" finished-at="2021-12-15T19:53:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="assignValues()[pri:0, instance:pom_testcases.TC001_IRCTCRegistration@1f792cf]" name="assignValues" is-config="true" duration-ms="1" started-at="2021-12-15T19:53:38Z" finished-at="2021-12-15T19:53:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignValues -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:pom_testcases.TC001_IRCTCRegistration@1f792cf]" name="beforeMethod" is-config="true" duration-ms="22522" started-at="2021-12-15T19:53:38Z" finished-at="2021-12-15T19:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase()[pri:0, instance:pom_testcases.TC001_IRCTCRegistration@1f792cf]" name="testCase" duration-ms="19006" started-at="2021-12-15T19:54:00Z" finished-at="2021-12-15T19:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:pom_testcases.TC001_IRCTCRegistration@1f792cf]" name="afterMethod" is-config="true" duration-ms="984" started-at="2021-12-15T19:54:19Z" finished-at="2021-12-15T19:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:pom_testcases.TC001_IRCTCRegistration@1f792cf]" name="afterTest" is-config="true" duration-ms="5" started-at="2021-12-15T19:54:20Z" finished-at="2021-12-15T19:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:pom_testcases.TC001_IRCTCRegistration@1f792cf]" name="afterSuite" is-config="true" duration-ms="312" started-at="2021-12-15T19:54:20Z" finished-at="2021-12-15T19:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- pom_testcases.TC001_IRCTCRegistration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
