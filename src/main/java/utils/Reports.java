@@ -12,7 +12,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 //public abstract class Reports {
 public class Reports{
-	ExtentReports report;
+	static ExtentReports report;
 	static ExtentTest test ;
 	public String testcaseName,testcaseDescription,Author,Category;
 	public void startReport(){
