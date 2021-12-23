@@ -1,5 +1,6 @@
 package testcases;
 
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import utils.DataProvider_TC001;
@@ -7,6 +8,13 @@ import wrappers.GenericWrapper;
 import wrappers.ProjectWrappers;
 
 public class TC001_IrctcRegistration extends ProjectWrappers {
+	@BeforeClass
+	public void assignValues(){
+		testcaseName = "TC001";
+		testcaseDescription = "IRCTC";
+		Author = "Veena";
+		Category = "Smoke";
+	}
 @Test(dataProvider="testcase1",dataProviderClass=DataProvider_TC001.class)
 	public void irctcRegistration(String username,String password,String confpassword,String pet) {
 				
